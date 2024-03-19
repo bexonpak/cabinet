@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>redirect</title>
+</head>
+<p>redirect...</p>
+<body>
+</body>
+<script>
+  var url = document.location.toString();
+  var arrUrl = url.split("//");
+  window.location.replace("bxn-cabinet://" + arrUrl[1]);
+</script>
+</html>
